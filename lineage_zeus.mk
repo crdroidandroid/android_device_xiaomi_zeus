@@ -11,6 +11,9 @@ $(call inherit-product, device/xiaomi/zeus/device.mk)
 TARGET_DISABLE_EPPE := true
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# Gapps
+$(call inherit-product, vendor/gapps/arm64/arm64-vendor.mk)
+
 PRODUCT_NAME := lineage_zeus
 PRODUCT_DEVICE := zeus
 PRODUCT_MANUFACTURER := Xiaomi
